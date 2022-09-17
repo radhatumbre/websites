@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;1,200;1,300;1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                
+            <ul>
+                <li><a href="">HOME</a></li>
+                <li><a href="">ABOUT</a></li>
+                <li><a href="">COURSE</a></li>
+                <li><a href="">BLOG</a></li>
+                <li><a href="">CONTACT</a></li>
+            </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+    <h1>Our Courses</h1>
+    </section>
+
+<!----courses content---->
+<section class="course">
+    <h1>Courses we offer</h1>
+    <p> We offer all courses</p>
+
+    <div class="row">
+        <div class="course-col">
+            <h3>Intermediate</h3>
+            <p> 
+                This is made by me Im very happy.
+            </p> 
+        </div>
+        <div class="course-col">
+            <h3>Degree</h3>
+            <p> 
+                 Ill be graduating in 2025.
+            </p> 
+        </div>
+        <div class="course-col">
+            <h3>Post graduation</h3>
+            <p> 
+                I'm not sure about post graduation,
+            </p> 
+        </div>
+    </div>
+</section>
+
+<!----facilities---->
+<section class"facilities">
+    <div class="headd">
+    <h1>Our facilities</h1>
+    <p>Includes all labs and rooms</p>
+    </div>
+
+    <div class="row">
+        <div class="facilities-col">
+            <a href="index.html"><img src="images/library.png"></a>
+            <h3>World class library</h3>
+            <p>All books available for 15 days</p>
+        </div>
+        <div class="facilities-col">
+            <a href="index.html"><img src="images/basketball.png"></a>
+            <h3>Basket ball court available</h3>
+            <p>Free of cost for 2 months</p>
+        </div>
+        <div class="facilities-col">
+            <a href="index.html"><img src="images/cafeteria.png"></a>
+            <h3>Delicious Food</h3>
+            <p>All variety of food is there hygienic</p>
+        </div>
+    </div>
+</section>
+
+
+
+<!----footer-->
+<section class="footer">
+    <h4>About Us</h4>
+    <p>I'm second year student</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+        <i class="fa fa-twitter"></i>
+    </div>
+</section>
+
+
+
+
+
+
+
+<!------JavaSript------>
+  <script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu()
+    {
+        navLinks.style.right = "0";
+    }
+    function hideMenu()
+    {
+        navLinks.style.right = "-200px";
+    }
+  </script>  
+</body>
+</html>
